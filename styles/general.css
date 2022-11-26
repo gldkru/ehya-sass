@@ -1,3 +1,62 @@
+:root {
+	--primary: #36B37E;
+	--secondary: #F9FBFE;
+	--success: #E6F8FB;
+	--warning: #FAAD13;
+	--danger: #E95432;
+	--dark: #183B56;
+	--ligth: #fff;
+	--font: 'Open Sans', sans-serif;
+	--font-secondary: 'HK Grotesk', sans-serif;
+}
+
 * {
 	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-secondary);
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #1565D8;
+}
+
+a:hover {
+	color: #36B37E;
+}
+
+.btn {
+	color: var(--primary);
+	background: transparent;
+	border: 2px solid;
+	border-radius: 24px;
+	height: 48px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 0 20px;
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+}
+
+.btn:hover {
+	background: var(--primary);
+	color: var(--ligth);
+	border-color: var(--primary);
 }

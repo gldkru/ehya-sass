@@ -1,0 +1,27 @@
+.hero {
+	display: flex;
+	align-items: center;
+	background: #EBF7F2;
+	padding: 50px 0 calc(var(--header-height) + 50px);
+	height: calc(100vh - var(--header-height));
+	min-height: 680px;
+}
+
+.hero__center {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.hero__scroll-down {
+	position: absolute;
+	width: 56px;
+	height: 56px;
+	border: 1px solid;
+	bottom: calc(-56px - 50px);
+}
+
+.hero-image {
+	max-width: 100%;
+}
