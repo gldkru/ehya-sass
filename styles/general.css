@@ -60,3 +60,8 @@ a:hover {
 	color: var(--ligth);
 	border-color: var(--primary);
 }
+
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
