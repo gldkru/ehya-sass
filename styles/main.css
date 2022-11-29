@@ -3,7 +3,9 @@
 
 /* Tools */
 @import 'grid.css';
+@import 'page.css';
 
 /* Block */
 @import 'header.css';
+@import 'footer.css';
 @import 'hero.css';
