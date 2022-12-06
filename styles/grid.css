@@ -67,11 +67,17 @@
 } */
 
 .row {
-	--gutter: 30px;
+	--gutter: 20px;
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: calc(var(--gutter) / -2);
 	margin-right: calc(var(--gutter) / -2);
+}
+
+@media screen and (min-width: 768px) {
+	.row {
+		--gutter: 30px;
+	}
 }
 
 /* .col */
