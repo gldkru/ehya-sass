@@ -1,10 +1,13 @@
 .workflow-item {
 	padding: 15px;
 	background: #dedede;
+	margin-bottom: 15px;
+	/* height: 100%; */
 }
 
 @media screen and (min-width: 1200px) {
 	.workflow-item {
 		padding: 20px;
+		margin-bottom: 20px;
 	}
 }
