@@ -1,5 +1,5 @@
 :root {
-	--header-height: 100px;
+	--header-height: 64px;
 }
 
 .header {
@@ -10,7 +10,7 @@
 }
 
 .header_primary {
-	background: #EBF7F2;
+	background: #ebf7f2;
 }
 
 .header__logo {
@@ -44,4 +44,10 @@
 
 .header-menu__link:not(:last-child) {
 	margin-right: 40px;
+}
+
+@media screen and (min-width: 992px) {
+	:root {
+		--header-height: 100px;
+	}
 }

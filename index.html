@@ -20,7 +20,7 @@
 		<header class="page__header header header_primary">
 			<div class="container">
 				<div class="row">
-					<div class="col-2">
+					<div class="col-6 col-lg-2">
 						<div class="header__logo">
 							<svg width="90" height="28" viewBox="0 0 90 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd"
@@ -38,14 +38,25 @@
 							</svg>
 						</div>
 					</div>
-					<div class="col-10">
-						<nav class="header__menu header-menu">
-							<a href="#" class="header-menu__link">Home</a>
-							<a href="#" class="header-menu__link">Landings</a>
-							<a href="#" class="header-menu__link">Pages</a>
-							<a href="#" class="header-menu__link">Docs</a>
-							<a href="#" class="header-menu__link">Help</a>
-							<a href="#" class="btn">Get it now</a>
+					<div class="col-6 col-lg-10">
+						<nav class="header__menu">
+							<nav class="header-menu d-none d-lg-flex">
+								<a href="#" class="header-menu__link">Home</a>
+								<a href="#" class="header-menu__link">Landings</a>
+								<a href="#" class="header-menu__link">Pages</a>
+								<a href="#" class="header-menu__link">Docs</a>
+								<a href="#" class="header-menu__link">Help</a>
+								<a href="#" class="btn btn-outline btn-primary btn-rounded">Get it now</a>
+							</nav>
+							<nav class="header__menu header-menu d-lg-none">
+								<button type="button" class="btn btn-icon">
+									<svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M1.09009 2.2H20.9099C21.5119 2.2 22 1.70751 22 1.1C22 0.492487 21.5119 0 20.9099 0H1.09009C0.48805 0 0 0.492487 0 1.1C0 1.70751 0.48805 2.2 1.09009 2.2ZM1.09009 9.94836H20.9099C21.5119 9.94836 22 9.45588 22 8.84836C22 8.24085 21.5119 7.74836 20.9099 7.74836H1.09009C0.48805 7.74836 0 8.24085 0 8.84836C0 9.45588 0.48805 9.94836 1.09009 9.94836ZM20.9099 17.6967H1.09009C0.48805 17.6967 0 17.2042 0 16.5967C0 15.9892 0.48805 15.4967 1.09009 15.4967H20.9099C21.5119 15.4967 22 15.9892 22 16.5967C22 17.2042 21.5119 17.6967 20.9099 17.6967Z"
+											fill="currentColor" />
+									</svg>
+								</button>
+							</nav>
 						</nav>
 					</div>
 				</div>
@@ -75,13 +86,13 @@
 							</div>
 						</div>
 						<div class="col-12">
-							<div class="hero__scroll-down">
+							<button type="button" class="btn btn-primary btn-rounded-full hero__scroll-down">
 								<svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path
 										d="M12.9062 5.96875C12.5938 5.65625 12.125 5.6875 11.8125 5.96875L8.25 9.75V0.75C8.25 0.34375 7.90625 0 7.5 0H6.5C6.0625 0 5.75 0.34375 5.75 0.75V9.75L2.15625 5.96875C1.84375 5.6875 1.375 5.65625 1.0625 5.96875L0.375 6.65625C0.09375 6.9375 0.09375 7.4375 0.375 7.71875L6.46875 13.7812C6.75 14.0938 7.21875 14.0938 7.53125 13.7812L13.5938 7.71875C13.875 7.4375 13.875 6.96875 13.5938 6.65625L12.9062 5.96875Z"
 										fill="currentColor" />
 								</svg>
-							</div>
+							</button>
 						</div>
 					</div>
 				</div>

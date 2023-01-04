@@ -1,8 +1,5 @@
 .btn {
-	color: var(--primary);
 	background: transparent;
-	border: 2px solid;
-	border-radius: 24px;
 	height: 48px;
 	font-weight: bold;
 	cursor: pointer;
@@ -10,10 +7,31 @@
 	text-decoration: none;
 	display: inline-flex;
 	align-items: center;
+	border: none;
 }
 
-.btn:hover {
+.btn-outline {
+	border: 2px solid currentColor;
+}
+
+.btn-rounded {
+	border-radius: 24px;
+}
+
+.btn-rounded-full {
+	border-radius: 50%;
+}
+
+.btn-primary {
+	color: var(--primary);
+}
+
+.btn-primary:hover {
 	background: var(--primary);
 	color: var(--ligth);
 	border-color: var(--primary);
+}
+
+.btn-link {
+	padding: 0 10px;
 }
