@@ -1,19 +1,23 @@
 .workflow {
-	padding: 100px 0;
+	padding: 36px 0;
 }
 
 .workflow__content {
 	text-align: center;
-	margin-bottom: 56px;
+	margin-bottom: 36px;
 }
 
 .workflow-item {
-	padding: 15px;
+	padding: 22px 0px 28px;
 	background: #dedede;
 	margin-bottom: 15px;
-	height: 100%;
+	/* height: 100%; */ /* not working margins */
 	text-align: center;
 	border-radius: 16px;
+}
+
+.workflow-item:not(:last-child) {
+	margin-bottom: 20px;
 }
 
 .workflow-item_blue {
@@ -32,7 +36,8 @@
 }
 
 .workflow-item__title {
-	font-size: 24px;
+	font-size: 22px;
+	line-height: 1.45;
 	color: var(--dark);
 }
 
@@ -43,17 +48,41 @@
 }
 
 .workflow-item__icon {
-	width: 56px;
-	height: 56px;
+	width: 40px;
+	height: 40px;
 	flex-shrink: 0;
-	margin: 0 12px;
+	margin: 0 10px;
 	border: 2px solid;
 	border-radius: 50%;
 }
 
+@media screen and (min-width: 768px) {
+	.workflow {
+		padding: 80px 0;
+	}
+}
+
 @media screen and (min-width: 1200px) {
+	.workflow {
+		padding: 100px 0;
+	}
+
+	.workflow__content {
+		margin-bottom: 56px;
+	}
+
 	.workflow-item {
 		padding: 48px;
 		margin-bottom: 0px;
+	}
+
+	.workflow-item__icon {
+		width: 56px;
+		height: 56px;
+		margin: 0 12px;
+	}
+
+	.workflow-item__title {
+		font-size: 24px;
 	}
 }
