@@ -1,0 +1,35 @@
+.cta-form {
+	background: #f9fbfe;
+}
+
+.cta-form__content {
+	padding: 64px 0;
+}
+
+/* picture */
+.cta-form__picture {
+	display: block;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	margin-top: 45px;
+}
+
+.cta-form__picture-container {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+	.cta-form__content {
+		padding: 80px 0;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.cta-form__content {
+		padding: 72px 0;
+	}
+}
