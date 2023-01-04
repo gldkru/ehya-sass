@@ -42,28 +42,3 @@ a {
 a:hover {
 	color: var(--blue);
 }
-
-.btn {
-	color: var(--primary);
-	background: transparent;
-	border: 2px solid;
-	border-radius: 24px;
-	height: 48px;
-	font-weight: bold;
-	cursor: pointer;
-	padding: 0 20px;
-	text-decoration: none;
-	display: inline-flex;
-	align-items: center;
-}
-
-.btn:hover {
-	background: var(--primary);
-	color: var(--ligth);
-	border-color: var(--primary);
-}
-
-.mx-auto {
-	margin-left: auto;
-	margin-right: auto;
-}
