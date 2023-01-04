@@ -1,0 +1,37 @@
+.partners {
+	padding: 56px 0;
+	text-align: center;
+}
+
+.partners__content {
+	margin-top: 50px;
+}
+
+.partners-item {
+	padding: 20px;
+}
+
+.partners-item svg,
+.partners-item img {
+	margin: 0 auto;
+	display: block;
+	height: auto;
+	max-width: 130px;
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	.partners {
+		padding: 80px 0;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.partners {
+		padding: 100px 0;
+	}
+
+	.partners__content {
+		margin-top: 70px;
+	}
+}
