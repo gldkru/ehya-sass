@@ -4,6 +4,8 @@
 /* Tools */
 @import 'grid.css';
 @import 'page.css';
+@import 'order.css';
+@import 'block-text.css';
 
 /* Block */
 @import 'header.css';

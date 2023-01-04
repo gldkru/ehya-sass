@@ -1,0 +1,19 @@
+.block-text {
+	font-size: 18px;
+	line-height: 1.78;
+}
+
+/* change children color and work inherit prop for title */
+.block-text > * {
+	color: #5a7184;
+}
+
+.block-text > *:not(:last-child) {
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+
+.block-text__title {
+	color: inherit !important;
+	font-size: 40px;
+}
