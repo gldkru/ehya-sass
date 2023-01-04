@@ -13,6 +13,11 @@
 	margin-bottom: 24px;
 }
 
+.block-text > hr {
+	margin: 36px 0 !important;
+	border-top: 1px dashed #9daab6;
+}
+
 .block-text__title {
 	color: inherit !important;
 	font-size: 28px;
@@ -26,5 +31,9 @@
 
 	.block-text__title {
 		font-size: 40px;
+	}
+
+	.block-text > hr {
+		margin: 56px 0 !important;
 	}
 }
